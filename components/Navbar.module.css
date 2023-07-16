@@ -1,0 +1,30 @@
+.header{
+    background-color: rgba(45, 40, 40, 0.422);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 0 50px;
+    position: fixed;
+    z-index: 1;
+}
+.listcontainer{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+.listcontainer li{
+    padding: 15px;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 0.922);
+    font-weight: bold;
+}
+.listcontainer li:hover{
+    color: rgba(245, 245, 245, 0.621);
+    font-size:20px;
+}
+.logo{
+    width:100px;
+    border-radius: 50%;
+    padding: 10px;
+}
